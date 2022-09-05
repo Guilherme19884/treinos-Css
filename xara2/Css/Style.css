@@ -1,0 +1,126 @@
+/* zerando margem e definindo alguns coisa para pag inteira */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* imgaem de fundo do site */
+body {
+  background-image: url(https://cdn.dribbble.com/users/2527781/screenshots/11122814/media/c29e54cf12ad08b68936a16b019ff23c.png?compress=1&resize=768x576&vertical=top);
+  background-repeat: repeat-y;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.cabecalho {
+  max-width: 800px;
+  height: 50px;
+  background-color: rgba(41, 41, 245, 0.809);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(54, 66, 80, 0.525);
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
+.navegacao > a {
+  font: 400;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 100px 0 100px;
+}
+
+/* alinhamento de imagem e texto dos desenhos */
+.container-comedia {
+  max-width: 800px;
+  height: auto;
+  margin: 30px auto 30px auto;
+  display: block;
+}
+.container-comedia > h2 {
+  margin: 15px;
+}
+
+.container-filme2 {
+  max-width: 800px;
+  height: auto;
+  margin: 30px auto 30px auto;
+}
+.container-filme2 > h2 {
+  margin: 15px;
+}
+
+.container-filme3 {
+  max-width: 800px;
+  height: auto;
+  margin: 30px auto 30px auto;
+}
+.container-filme3 > h2 {
+  margin: 15px;
+}
+
+/* categoria do filme */
+.indice {
+  max-width: 800px;
+  font-size: 40px;
+  color: rgb(240, 187, 71);
+  background-color: rgba(197, 12, 12, 0.593);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(54, 66, 80, 0.525);
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
+/* imagens dos filmes */
+.imgs {
+  width: 250px;
+  height: 250px;
+}
+.lista-proximo-ano {
+  max-width: 800px;
+  height: auto;
+  margin: 30px auto 30px auto;
+  display: block;
+}
+.lista-proximo-ano > h2 {
+  font-size: 40px;
+  background-color: rgba(41, 41, 245, 0.809);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(54, 66, 80, 0.525);
+  margin: 20px;
+}
+
+.sugestao {
+  width: 400px;
+  background-color: rgba(207, 48, 12, 0.848);
+  box-shadow: 5px 5px 5px rgba(54, 66, 80, 0.525);
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.titulo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+input {
+  display: flex;
+  margin-left: 112px;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  background-color: rgba(103, 200, 103, 0.9);
+  border-radius: 5px;
+  border: none;
+  margin-left: 100px;
+}
